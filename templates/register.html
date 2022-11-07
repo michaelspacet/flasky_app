@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block content %}
+<div class="register">
+    <form action="{{ url_for('register') }}" method="POST">
+        {{ form.hidden_tag() }}
+        {{ wtf.form_field(form.id) }}
+        {{ wtf.form_field(form.password) }}
+        {{ wtf.form_field(form.repeat_password) }}
+        <input type="submit" value="register">
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,105 @@
+@font-face{
+    font-family: Barclays;
+    src: { url_for('static', filename='BarclaysEffra_A_Lt.ttf') }};
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #444;
+  font-family: Barclays;
+}
+#nav-bar {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+#nav-bar img{
+  height: 100%;
+}
+header {
+  background-color: #5C1E5B;
+  height: 35px;
+  width: 100%;
+  opacity: .9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Barclays;
+}
+header h1.logo {
+  margin: 0;
+  font-size: 1.7em;
+  color: #fff;
+  float: left;
+  font-family: Barclays;
+}
+header h1.logo:hover {
+  color: #fff;
+  text-decoration: none;
+  font-family: Barclays;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+div.home {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+div.user_guide {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+div.login {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+div.register {
+  padding: 10px 0 30px 0;
+  background-color: #E6E6FA;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+h2 {
+  font-size: 3em;
+  margin-top: 40px;
+  text-align: center;
+  letter-spacing: -2px;
+  font-family: Barclays;
+}
+h3 {
+  font-size: 1.7em;
+  font-weight: 100;
+  margin-top: 30px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #999;
+  font-family: Barclays;
+}
+.menu {
+  float: right;
+  margin-top: 8px;
+}
+.menu li {
+  display: inline;
+}
+.menu li + li {
+  margin-left: 35px;
+}
+.menu li a {
+  color: #AFFDFD;
+  text-decoration: none;
+}
+img {
+  width: 100%;
+  height: auto;
+}

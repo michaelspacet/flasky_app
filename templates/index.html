@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block content %}
+<div class="card">
+  <img src="{{ url_for('static', filename='blogo.png') }}" class="logo" />
+    <h1 class="site-title">{{ title }}</h1>
+     <p class="subtitle">Welcome to the CIPI Portal. Please log in.</p>
+      <a href="/login/" class="link">
+    <span>Login</span>
+    <i class="fas fa-arrow-right"></i>
+  </a>
+</div>
+{% endblock %}
